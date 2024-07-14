@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState } from 'react';
-import Camera, { FACING_MODES, ImageType } from 'react-html5-camera-photo';
+import Camera, { FACING_MODES } from 'react-html5-camera-photo';
 import 'react-html5-camera-photo/build/css/index.css';
 
 const CameraComponent: React.FC = () => {
